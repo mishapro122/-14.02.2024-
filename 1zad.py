@@ -18,5 +18,5 @@ with open('products.csv', encoding='utf-8-sig') as file:
             newstat['total'] = int(stat['Price_per_unit'][:-2]) * int(stat['Count'][:-2])
             writer.writerow(newstat)#добовление словаря как строчку в файл
 print(it_summa_zak)#вывод суммы
-
+#ответ - 87795
 
